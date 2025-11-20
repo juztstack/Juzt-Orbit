@@ -1,0 +1,27 @@
+{
+    "name": "juztstack/juztorbit",
+    "type": "theme",
+    "require": {
+        "timber/timber": "2.0.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JuztStack\\JuztOrbit\\": "src/classes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jesus Uzcategui"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    },
+    "require-dev": {
+        "php-stubs/wordpress-stubs": "dev-master"
+    }
+}
