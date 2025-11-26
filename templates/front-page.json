@@ -12,7 +12,7 @@
                 {
                     "type": "feature",
                     "settings": {
-                        "title": "JSON Template",
+                        "title": "Hello team",
                         "description": "The templates for pages have been manager by a minimal customizer"
                     }
                 },
@@ -76,7 +76,7 @@
                 {
                     "type": "slide",
                     "settings": {
-                        "title": "Welcome to Juzt Orbit!",
+                        "title": "Welcome dev improve team",
                         "subtitle": "Your journey starts here",
                         "button_text": "Get Started",
                         "button_link": "#"
