@@ -19,11 +19,7 @@
       {% for block in section.blocks %}
         {% if block.type == "docs" %}
           <li class="hello-orbit-docs-item">
-            <h3 class="hello-orbit-docs-title">{{ block.settings.title }}</h3>
-            <p class="hello-orbit-docs-description">{{ block.settings.description }}</p>
-            {% if block.settings.link %}
-            <a href="{{ block.settings.link }}" class="hello-orbit-docs-link">GO!</a>
-            {% endif %}
+             {{ snippet('hello-orbit-feature', { block: block }) }}
           </li>
         {% endif %}
       {% endfor %}
